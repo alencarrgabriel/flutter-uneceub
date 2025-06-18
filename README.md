@@ -7,20 +7,21 @@ Aplicação Flutter para networking acadêmico, permitindo que estudantes e pesq
 ## 📁 Estrutura do Projeto
 
 ```text
-/networking-academico-flutter
+/my-networking-app
 │
-├── README.md          → explicação do projeto
-├── .gitignore         → já vem pronto para Flutter
-├── lib/               → código principal Flutter
-│   ├── screens/       → telas da aplicação
-│   ├── models/        → modelos de dados
-│   ├── services/      → serviços e APIs
-│   ├── widgets/       → widgets reutilizáveis
-│   └── main.dart      → ponto de entrada da aplicação
-├── test/              → testes automatizados
-├── docs/              → documentação do projeto
-├── .github/           → Workflows (CI/CD)
-└── project/           → Exportações do quadro de projeto
+├── README.md
+├── docs/                      # Documentação (PDF de requisitos, Design, Wireframes, etc.)
+├── lib/                       # Código Flutter
+│   ├── main.dart
+│   ├── screens/
+│   ├── models/
+│   ├── services/
+│   └── widgets/
+├── test/                      # Testes automatizados
+├── pubspec.yaml
+├── .github/
+│   └── workflows/             # CI/CD se desejar automatizar builds
+└── project/                   # Exportações de sprints do GitHub Project
 ```
 
 ---
